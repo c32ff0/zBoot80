@@ -1,0 +1,3 @@
+.config
+*.bin
+*.pp.S

@@ -1,0 +1,5 @@
+This is a very customisable bootloader for the
+z80 with a small (optional) command line.
+
+Just run 'make' and it should take care of everything else.
+

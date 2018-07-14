@@ -1,0 +1,1 @@
+Every driver file starts with a #define that creates the macro label() that takes as an argument the name of a label and adds the device id to it to prevent labels like "loop" causing conflict since, with the current design everything is getting put in a single binary.
