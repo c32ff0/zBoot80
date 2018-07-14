@@ -20,8 +20,8 @@ struct options_t{
 //	DISPLAY
 		int atleastonedisplay;
 		device(ONEBYTEDISP);
-//  Co-porccessors
-		int atleastonecoproccessor;
+//  coprocessors
+		int atleastonecoprocessor;
 		device(AM9511);
 //	Timer/counters
 		int atleastonetimer;

@@ -38,9 +38,9 @@ configram:
 
 	confdev(ONEBYTEDISP,"One byte display","This is a byte in IO space that is displayed in a (usualy) hexadecimal display like a doule til311.",doask,atleastonedisplay);
 	
-	doask=ask("Enable Co-Proccessors","This option will make the script ask for which co-proccessors are present ike math co-proccessors",1);
+	doask=ask("Enable coprocessors","This option will make the script ask for which coprocessors are present ike math coprocessors",1);
 
-	confdev(AM9511,"AM9511 Math co-proccessor","No help available",doask,atleastonecoproccessor);
+	confdev(AM9511,"AM9511 Math coprocessor","No help available",doask,atleastonecoprocessor);
 
 	doask=ask("Enable Timers","This option will make the script ask for which time chips are present like the Z80 CTC.It enables also some commands related to Timers and Counters",1);
 
